@@ -30,7 +30,7 @@ body{
     position: absolute;
 }
 nav{
-     max-width: 80vw;
+     width: 80vw;
     justify-content: space-between;
     margin: auto;
     display: flex;
@@ -459,8 +459,8 @@ footer p{
         overflow-x: hidden;
     }
     nav{
-        width: 295px;
-       justify-content:center;
+        width: 366px;
+       justify-content:space-between;
        display: flex;
        flex-direction: row;
        align-items: center;
@@ -475,7 +475,7 @@ footer p{
  }
   .buttton{
     display: inline;
-    height: 31px;
+    height: 26px;
     margin-left: 8px;
     
 
@@ -493,7 +493,7 @@ footer p{
  }
    .main{
     height:82vh;
-    width:82vw;
+    width:100vw;
     background-size: cover;
    
 }
@@ -506,11 +506,11 @@ footer p{
     position: absolute;
 }
 .text{
-    margin: 50px 10px;
+    margin: 70px 10px;
     height: 54vh;
 }
 .text h1{
-    font-size:32px; 
+    font-size:41px; 
     width: 90%;
     line-height: 32px;
    
@@ -536,7 +536,7 @@ footer p{
 }
 .secondpage{
     padding: 6px 10px 10px 10px;
-    width: 79vw;
+    width: 100vw;
 }
 .heading{
     margin-top: 6px;
@@ -589,15 +589,18 @@ footer p{
         font-size: 13px;
     }
     .fourthline h2 {
-        margin: 17px 17px;
+        margin: 17px 47px;
         font-size: 18px;
+      
     }
     .faq{
         margin-bottom: 46px;
+        width: 100vw;
     }
     .questions{
         padding: 10px 16px;
         margin-left: 1px;
+        width: 93vw;
     }
     .questions h1 {
         font-size: 15px;
@@ -627,7 +630,7 @@ footer p{
     .lasttext input {
         padding: 13px 10px 13px 10px;
         width: 68%;
-        margin-left: 18px;
+        margin-left: 2px;
     }
     footer span {
         margin: 10px;
