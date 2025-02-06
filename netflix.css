@@ -438,6 +438,9 @@ footer p{
  /*----------------------------responsive-------------------------------*/
 
  @media only screen and (max-width:1170px){
+    body{
+        overflow-x: hidden;
+    }
     .box{
         height:14rem;
         width:22%;
@@ -455,11 +458,19 @@ footer p{
 
 
  @media only screen and (max-width:600px){
-    body{
+    html{
         overflow-x: hidden;
     }
+
+    
+    body{
+        height: 450vh;
+        max-width: ;
+        overflow-x: hidden;
+        
+    }
     nav{
-        width: 366px;
+        width: 360px;
        justify-content:space-between;
        display: flex;
        flex-direction: row;
@@ -493,7 +504,7 @@ footer p{
  }
    .main{
     height:82vh;
-    width:100vw;
+    width:auto;
     background-size: cover;
    
 }
